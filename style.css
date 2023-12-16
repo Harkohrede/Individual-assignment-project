@@ -88,8 +88,8 @@
     height: 48px;
   }
   input,select{
+    padding-inline: 16px;
     position: relative;
-    margin-bottom: 30px;
     color: var(--cl-grey, #737373);
     font-family: Sofia Pro;
     font-size: 14px;
@@ -97,6 +97,9 @@
     font-weight: 300;
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.2px;
+  }
+  div.field{
+    margin-bottom: 30px;
   }
   label{
     margin-bottom: 10px;
@@ -216,6 +219,9 @@
       padding-inline: 16px;
       padding-block: 24px 30px;
     }
-
-    
+  }
+  svg{
+    position: relative;
+    top: -30px;
+    left: 460px;
   }
